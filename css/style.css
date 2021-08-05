@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*background: #8A2387;   fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */*/
+/*background: linear-gradient(to right, #F27121, #E94057, #8A2387);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.main-container{
+  
+   
+}
+
+body{
+	 background: -webkit-linear-gradient(right,#F27121, #E94057, #8A2387);
+}
+
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	background:#fff;
+}
+
+.nav-bar .nav-logo{
+	padding-top: 5px;
+}
+
+.nav-bar .nav-logo a{
+	/*color: linear-gradient(to right, #F27121, #E94057, #8A2387);*/
+  font-size: 30px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(right,#F27121, #E94057, #8A2387);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right-label{
+	display: flex;
+	flex-direction: row;
+	padding: 5px
+	justify-content:center;
+}
+
+.right-label .inner-logo {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+    background: -webkit-linear-gradient(right,#F27121, #E94057, #8A2387);
+   -webkit-text-fill-color: #fff;
+    font-weight: bold;
+    	padding: 10px;
+	border-radius: 50px;
+
+}
+.right-label .inner-label{
+	display: flex;
+	flex-direction: column;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.right-label .inner-label span {
+	font-family:"Arial", sans-serif;
+}
+
+.right-label .inner-label .user-email{
+	font-size: 12px;
+	color: #ccc;
+}
